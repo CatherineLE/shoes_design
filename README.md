@@ -15,7 +15,7 @@ DCGAN - Deep Convolutional Generative Adversarial Networks
 You can use this model with different hyperparameters values.
 ![image](https://user-images.githubusercontent.com/46371678/101190566-d2683a00-3658-11eb-807d-2323a81f3fb2.png)
 
-Here I put the DCGAN4_mod version because the resulted fake image looks better with the loaded weights model :
+See the resulted fake image below with DCGAN4_mod :
 ![image](https://user-images.githubusercontent.com/46371678/101190779-27a44b80-3659-11eb-990f-3e578621ff7f.png)
 
 # What's new ?
@@ -25,6 +25,7 @@ I added some changes :
 - to save, load and use weights in the model G
 - to display fake and real images
 - to display a video for the training process
+- Web APP with streamlit that generate new image from the generated DCGAN4_mod's model weights  (see the streamlit.py file, the requirement.txt file and the .pth file)
 
 # Comment
 These models do not take too much time in the training process, about 20 minutes. 
