@@ -25,9 +25,9 @@ I added some changes :
 - to save, load and use weights in the model G
 - to display fake and real images
 - to display a video for the training process
-- Web APP with streamlit that generate new image from the generated DCGAN4_mod's model weights  (see the streamlit.py file, the requirement.txt file and the .pth file)
+- Web APP with streamlit that generate new images from the generated DCGAN4_mod's model weights  (see the streamlit.py file, the requirement.txt file and the .pth file)
 
 # Comment
 These models do not take too much time in the training process, about 20 minutes. 
 But the images are too small we can't even see the shoes details. One image is about 3 Ko.
-With a bigger picture the model could take much more time to run. That is another issue to look at.
+
